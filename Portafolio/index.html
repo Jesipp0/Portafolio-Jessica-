@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Potafolio</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header class="contenedor-header">
+        <header>
+            <aside class="logo">
+                <img src="./img/Jessica Pino.png" alt="">
+            </aside>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#Sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </header>
+
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+        <header class="contenido-banner">
+            <article class="contenedor-img">
+                <img src="./img/miie.jpg" alt="perfil">
+            </article>
+        <aside class="nombres">
+            <h1>JESSICA PINO</h1>
+            <h2>DESARROLLO FRONTEND</h2>
+        </aside>
+            <section class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            </section>
+        </header>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="Sobremi" class="sobremi">
+        <main class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola Soy Jessica Pino</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum vel
+                quis et ullam delectus iste molestiae tempora fuga hic blanditiis aperiam pariatur sapiente corrupti
+                similique repellendus, recusandae corporis debitis praesentium.</p>
+
+            <section class="fila">
+                <!-- datos personales -->
+                <article class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento</strong>
+                            15-01-2005
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3147624808
+                        </li>
+                        <li>
+                            <strong>Correo</strong>
+                            jesipp1501@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                                Cra 16 A #60 AN - 35 Popayan(Cauca), Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Frontend</span>
+                        </li>
+                    </ul>
+                </article>
+                <!-- interes -->
+                <article class="col">
+                    <h3>Intereses</h3>
+                    <section class="contenedor-intereses">
+                        <article class="interes">
+                            <i class="fa-sharp fa-solid fa-face-sleeping"></i>
+                            <span>DORMIR</span>
+                        </article>
+                        <article class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </article>
+                        <article class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>
+                        </article>
+                        <article class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span></span>
+                        </article>
+                        <article class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </article>
+                        <article class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>PELICULAS</span>
+                        </article>
+                        <article class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </article>
+                        <article class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LEER</span>
+                        </article>
+                    </section>
+                </article>
+            </section>
+        </main>
+    </section>
+    <!-- SECCION PORTAFOLIO -->
+    <section class="portafolio" id="portafolio">
+        <section class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <article class="galeria">
+                <section class="proyecto">
+                    <a href="#">
+                        <img src="./img/fondo-onda-blanca-suave_52683-55288.avif" alt="Proyecto">
+                        <div class="overlay">
+                            <h3>Proyecto 1</h3>
+
+                        </div>
+                    </a>
+                </section>
+                <section class="proyecto">
+                    <a href="#">
+                        <img src="./img/fondo-onda-blanca-suave_52683-55288.avif" alt="Proyecto">
+                        <div class="overlay">
+                            <h3>Proyecto 2</h3>
+                        </div>
+                    </a>
+                </section>
+                <section class="proyecto">
+                    <a href="#">
+                        <img src="./img/fondo-onda-blanca-suave_52683-55288.avif" alt="Proyecto">
+                        <div class="overlay">
+                            <h3>Proyecto 3</h3>
+                        </div>
+                    </a>
+                </section>
+                <section class="proyecto">
+                    <a href="#">
+                        <img src="./img/fondo-onda-blanca-suave_52683-55288.avif" alt="Proyecto">
+                        <div class="overlay">
+                            <h3>Proyecto 4</h3>
+                        </div>
+                    </a>
+                </section>
+                <section class="proyecto">
+                    <a href="#">
+                        <img src="./img/fondo-onda-blanca-suave_52683-55288.avif" alt="Proyecto">
+                        <div class="overlay">
+                            <h3>Proyecto 5 </h3>
+                        </div>
+                    </a>
+                </section>
+                <section class="proyecto">
+                    <a href="#">
+                        <img src="./img/fondo-onda-blanca-suave_52683-55288.avif" alt="Proyecto">
+                        <div class="overlay">
+                            <h3>Proyecto 6</h3>
+                        </div>
+                    </a>
+                </section>
+
+            </article>
+        </section>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-sharp fa-solid fa-angles-up"></i>
+        </a>
+        <section class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </section>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

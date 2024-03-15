@@ -1,0 +1,78 @@
+*{
+    font-family: 'Shere Tech Mono', monospace;
+}
+
+body {
+    background-color: #000;
+    color: white;
+
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 30px
+}
+
+header a{
+    color: #fff;
+    padding: 20px;
+}
+
+.contenedor{
+width: 40%;
+margin: auto;
+}
+
+#board, .boardInfo {
+    max-width: 500px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+
+}
+
+#scoreBoard {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: rgb(60, 255, 0);
+}
+
+.snakeSquare {
+    background-color: #1f40d4
+    ;
+}
+
+.foodSquare {
+    background-color: #e20f0f
+    ;
+}
